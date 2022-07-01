@@ -1,0 +1,62 @@
+:root {
+    --accent-color: #55BFF1;
+
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 550px;
+    margin: auto;
+}
+
+.flex-heading {
+    font-size: 2rem;
+}
+
+.flex-button {
+    padding: 1rem;
+
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.flex-button,
+.flex-container {
+    border: 3px solid var(--accent-color);
+}
+
+.flex-button:focus {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.flex-container {
+    height: 268px;
+    padding: .5rem;
+    margin-top: 2rem;
+}
+
+.flex-container,
+.flex-child {
+    display: flex;
+}
+
+.flex-child {
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem;
+    margin: 1px;
+
+    background-color: #98DFFB;
+    color: #287293;
+
+    font-size: 2rem;
+    text-align: center;
+}
